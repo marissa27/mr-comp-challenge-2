@@ -1,0 +1,249 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Kumar One', cursive;  text-align: center;
+}
+
+h3 {
+  margin: 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: .9em;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav a {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.container {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+}
+
+.drop-menu {
+  padding: 10px 0;
+}
+
+.rose-icon,
+.flag-icon {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  height: 18px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.rose-icon {
+  position: absolute;
+  right: 55px;
+}
+
+.flag-icon {
+  position: absolute;
+  right: 15px;
+  border-radius: 50%;
+}
+
+.icon {
+  display: none;
+  margin-right: 25px;
+  height: 25px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+  width: 80%;
+}
+
+.sponsor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px auto;
+  padding: 2px 0;
+  width: 95%;
+  background-color: #D3D3D3;
+  color: #fff;
+}
+
+.sponsor p {
+  margin: 0;
+}
+
+.advertisement-church {
+  display: inline-block;
+  padding: 2px 5px;
+  width: 30px;
+}
+
+.wife-box {
+  margin: 10px auto;
+  width: 95%;
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+}
+
+.portrait {
+  margin-right: 20px;
+}
+
+.portrait-img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.wife-number {
+  margin: 0;
+  padding: 2.5px 0;
+  background-color: #778899;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.number {
+  margin: 10px 0 -10px -10px;
+  color: #538CB7;
+  font-size: 4em;
+}
+
+.primary-number {
+  margin: 0;
+  color: #7C9CA9;
+}
+
+.children {
+  margin: 0;
+  color: #5E5E5E;
+}
+
+.name {
+  margin: 0;
+  padding: 5px 0;
+  border-top: 1px solid #ECEEED;
+  color: #5E5E5E;
+  text-align: center;
+}
+
+.last-name {
+  text-transform: uppercase;
+}
+
+footer {
+  margin: 0;
+  padding: 5px 0 0 0;
+  background-color: rgba(250, 250, 250, .5);
+  opacity: .9;
+}
+
+footer h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.wedding-menu-icon {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 40px;
+  height: 20px;
+}
+
+.wedding-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3px auto 0 auto;
+  padding: 10px;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.date-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.month,
+.year,
+.date {
+  color: #5E5E5E;
+}
+
+.month,
+.date {
+  margin: 0;
+}
+
+.date {
+  font-size: 1.25em;
+}
+
+@media screen and (min-width: 650px) {
+
+  .icon {
+    display: unset;
+  }
+
+  .sponsor {
+    width: 100%;
+  }
+
+  .main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .wife-box {
+    max-width: 48%;
+    margin: 10px 5px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weddings {
+    display: flex;
+  }
+
+  .wedding-date {
+    width: 30%;
+  }

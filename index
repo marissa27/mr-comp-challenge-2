@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Comp Challenge 2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Open+Sans|Roboto+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="mobile-menu">
+          <img class="menu-icon" src="images/ham-menu.png" alt="menu icon">
+          <img class="bell-icon" src="images/bell.png" alt="notification icon">
+          <img class="flag-icon" src="images/american-flag.jpg" alt="flag icon">
+        </div>
+        <h1>2014 Fifa World Cup Brazil&#8482</h1>
+        <nav class="nav-icons">
+          <a href="#"><img class="icon" src="images/radio_tower.png" alt=""></a>
+          <a href="#"><img class="icon" src="images/paper.png" alt=""></a>
+          <a href="#"><img class="icon" src="images/sports-jersey.png" alt=""></a>
+          <a href="#"><img class="icon" src="images/roster-icon.png" alt=""></a>
+          <a href="#"><img class="icon" src="images/medal.png" alt=""></a>
+          <a href="#"><img class="icon" src="images/location.png" alt=""></a>
+          <a href="#"><img class="icon" src="images/bar-graph.png" alt=""></a>
+          <a href="#"><img class="icon" src="images/molecule.png" alt=""></a>
+          <a href="#"><img class="icon" src="images/controller.png" alt=""></a>
+        </nav>
+        <h3>Statistics</h3>
+      </header>
+      <section class="main-content">
+        <div class="ad">
+          <p>Presented by</p><img class="ad-logo" src="images/castrol.png" alt="castrol edge logo">
+        </div>
+        <div class="player-card">
+          <p class="category">Team Captain</p>
+          <div class="inner-content">
+            <div class="headshot-wrap">
+              <img class="headshot" src="images/Michael-Bradley.png" alt="player headshot">
+            </div>
+            <div class="player-stats">
+              <p class="stat-number">12</p>
+              <p class="primary-stat">Goals scored</p>
+              <p class="secondary-stat">Caps 90</p>
+            </div>
+          </div>
+          <p class="name"><span>Michael</span> <span class="last-name">Bradley</span></p>
+        </div>
+        <div class="player-card">
+          <p class="category">Midfielder</p>
+          <div class="inner-content">
+            <div class="headshot-wrap">
+              <img class="headshot" src="images/jermaine-jones.jpg" alt="player headshot">
+            </div>
+            <div class="player-stats">
+              <p class="stat-number">11</p>
+              <p class="primary-stat">Goals scored</p>
+              <p class="secondary-stat">Caps 65</p>
+            </div>
+          </div>
+          <p class="name"><span>Jermaine</span> <span class="last-name">Jones</span></p>
+        </div>
+        <div class="player-card">
+          <p class="category">Forward</p>
+          <div class="inner-content">
+            <div class="headshot-wrap">
+              <img class="headshot" src="images/julian-green.jpg" alt="player headshot">
+            </div>
+            <div class="player-stats">
+              <p class="stat-number">14</p>
+              <p class="primary-stat">Goals scored</p>
+              <p class="secondary-stat">Caps 54</p>
+            </div>
+          </div>
+          <p class="name"><span>Julian</span> <span class="last-name">Green</span></p>
+        </div>
+        <div class="player-card">
+          <p class="category">Defender</p>
+          <div class="inner-content">
+            <div class="headshot-wrap">
+              <img class="headshot" src="images/fabian-johnson.jpg" alt="player headshot">
+            </div>
+            <div class="player-stats">
+              <p class="stat-number">10</p>
+              <p class="primary-stat">Goals scored</p>
+              <p class="secondary-stat">Caps 75</p>
+            </div>
+          </div>
+          <p class="name"><span>Fabian</span> <span class="last-name">Johnson</span></p>
+        </div>
+      </section>
+      <footer>
+        <img class="match-menu-icon" src="images/matches-menu.png" alt="expand matches menu icon">
+        <h3>Matches</h3>
+        <div class="match-wrap">
+          <div class="match-date">
+            <p class="day">Saturday</p>
+            <div class="date-wrap">
+              <p class="month">Jun</p>
+              <p class="date">28</p>
+            </div>
+          </div>
+          <div class="match-date">
+            <p class="day">Sunday</p>
+            <div class="date-wrap">
+              <p class="month">Jun</p>
+              <p class="date">29</p>
+            </div>
+          </div>
+          <div class="match-date">
+            <p class="day">Monday</p>
+            <div class="date-wrap">
+              <p class="month">Jun</p>
+              <p class="date">30</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
